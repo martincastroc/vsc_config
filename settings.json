@@ -42,6 +42,10 @@
     {
       "before": ["g","h"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    {
+      "before": ["<leader>", "c", "a"],
+      "commands": ["editor.action.quickFix"]
     }
   ],
   "vim.visualModeKeyBindings": [
